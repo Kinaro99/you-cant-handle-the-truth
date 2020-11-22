@@ -26,13 +26,10 @@ public class HandleTruthTest {
 //referred to hw4&3 for syntax & lecture for process
         List<TreeMap<Integer, Set<String>>> testers = getExpected();
 
-        for (int i = 0; i < testers.size(); i++) { //can't do length..recheck
+        for (int i = 0; i < testers.size(); i++) {
             TreeMap<Integer, Set<String>> actual = HandleTruth.wordCount(input[i]);
             assertEquals(testers.get(i), actual);
-            //TreeMap<Integer, Set<String>> expected = testers.get(i); redused to one line
-            //assertEquals(expected, actual);
         }
-
 
     }
 
@@ -106,6 +103,5 @@ public class HandleTruthTest {
 
         return testers;
     }
-
 
 }
