@@ -5,6 +5,23 @@ public class HandleTruthTest {
     public void makeshiftTest() {
         HandleTruth.wordCount();
     }
+
+    //lecture notes
+    /*@Test
+    public void realTest(){
+        actual = HandleTruth.wordCount(); //change word count to return value
+        expected;
+        assert(expected, actual);
+
+    }*/
+
+
+    @Test
+    public void testWordCount(){
+        String[] input = {
+
+        };
+    }
 }
 
 //lecture notes for quiz
